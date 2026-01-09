@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        Cat cat = new Cat("cat");
-        Dog dog = new Dog("dog");
-        Scorpion scorpion = new Scorpion("scorpion");
+        Cat cat = new Cat("Lucy");
+        Dog dog = new Dog("Snoopy");
+        Scorpion scorpion = new Scorpion("Scorponok");
 
         ArrayList<Pet> petList = new ArrayList<>();
         petList.add(cat);
